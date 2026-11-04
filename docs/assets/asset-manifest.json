@@ -1,0 +1,178 @@
+[
+ {
+  "filename": "screens/citysurviver-home.png",
+  "category": "screens",
+  "source_filename": "Screen_07___Home_Screen.png",
+  "section": "Final product / Hero",
+  "description": "Home dashboard with stipend card, search, shortcuts, available rooms (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "screens/citysurviver-search.png",
+  "category": "screens",
+  "source_filename": "Screen_08___Search_Screen.png",
+  "section": "Final product",
+  "description": "Search screen: location chips, popular areas, browse by type, recommendations (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "screens/citysurviver-search-results.png",
+  "category": "screens",
+  "source_filename": "Screen_09___Search_Results.png",
+  "section": "Final product / Hero",
+  "description": "Search results list with filter, sort and property cards (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "screens/citysurviver-filters.png",
+  "category": "screens",
+  "source_filename": "Screen_10___Filters.png",
+  "section": "Final product",
+  "description": "Filter panel: budget, type, preference, sharing, amenities, distance, verification (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "screens/citysurviver-property-details.png",
+  "category": "screens",
+  "source_filename": "Screen_12___Property_Details.png",
+  "section": "Final product / Hero",
+  "description": "Property details with owner, distances, amenities and Contact Owner (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "wireframes/citysurviver-home-wireframe.png",
+  "category": "wireframes",
+  "source_filename": "Wireframe___Screen_07_Home_Screen.png",
+  "section": "Wireframes to final",
+  "description": "Home wireframe (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "wireframes/citysurviver-search-wireframe.png",
+  "category": "wireframes",
+  "source_filename": "Wireframe___Screen_08_Search_Screen.png",
+  "section": "Wireframes to final",
+  "description": "Search wireframe (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "wireframes/citysurviver-search-results-wireframe.png",
+  "category": "wireframes",
+  "source_filename": "Wireframe___Screen_09_Search_Results.png",
+  "section": "Wireframes to final",
+  "description": "Search results wireframe (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "wireframes/citysurviver-filters-wireframe.png",
+  "category": "wireframes",
+  "source_filename": "Wireframe___Screen_10_Filters.png",
+  "section": "Wireframes to final",
+  "description": "Filters wireframe (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "wireframes/citysurviver-property-details-wireframe.png",
+  "category": "wireframes",
+  "source_filename": "Wireframe___Screen_12_Property_Details.png",
+  "section": "Wireframes to final",
+  "description": "Property details wireframe (unaltered copy)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "graphics/citysurviver-user-flow.webp",
+  "category": "graphics",
+  "source_filename": "CitySurviver_User_Flow_Case_Study.png",
+  "section": "User flow",
+  "description": "User flow graphic: Discover, Search, Compare, Filter, Connect (WebP conversion only)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "graphics/citysurviver-home-annotated.webp",
+  "category": "graphics",
+  "source_filename": "CitySurviver_UX_Case_Study.png",
+  "section": "Context / Reflection",
+  "description": "Annotated home screen graphic (WebP conversion only)",
+  "type": "original supplied asset"
+ },
+ {
+  "filename": "thumbnails/citysurviver-home-thumb.webp",
+  "category": "thumbnails",
+  "source_filename": "Screen_07___Home_Screen.png",
+  "section": "Asset gallery",
+  "description": "Thumbnail of citysurviver-home.png",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "thumbnails/citysurviver-search-thumb.webp",
+  "category": "thumbnails",
+  "source_filename": "Screen_08___Search_Screen.png",
+  "section": "Asset gallery",
+  "description": "Thumbnail of citysurviver-search.png",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "thumbnails/citysurviver-search-results-thumb.webp",
+  "category": "thumbnails",
+  "source_filename": "Screen_09___Search_Results.png",
+  "section": "Asset gallery",
+  "description": "Thumbnail of citysurviver-search-results.png",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "thumbnails/citysurviver-filters-thumb.webp",
+  "category": "thumbnails",
+  "source_filename": "Screen_10___Filters.png",
+  "section": "Asset gallery",
+  "description": "Thumbnail of citysurviver-filters.png",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "thumbnails/citysurviver-property-details-thumb.webp",
+  "category": "thumbnails",
+  "source_filename": "Screen_12___Property_Details.png",
+  "section": "Asset gallery",
+  "description": "Thumbnail of citysurviver-property-details.png",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "branding/citysurviver-mark.svg",
+  "category": "branding",
+  "source_filename": "-",
+  "section": "Branding",
+  "description": "Simple house mark for the case-study site (not the app logo)",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "icons/favicon.svg",
+  "category": "icons",
+  "source_filename": "-",
+  "section": "Site metadata",
+  "description": "Browser favicon",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "backgrounds/grid.svg",
+  "category": "backgrounds",
+  "source_filename": "-",
+  "section": "Page background",
+  "description": "Subtle editorial grid tile",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "illustrations/flow-line.svg",
+  "category": "illustrations",
+  "source_filename": "-",
+  "section": "User flow",
+  "description": "Dotted connector divider",
+  "type": "newly created supporting asset"
+ },
+ {
+  "filename": "generated/og-image.png",
+  "category": "generated",
+  "source_filename": "Screens 07, 09, 12",
+  "section": "Social preview",
+  "description": "Composition of unaltered screens for link previews",
+  "type": "newly created supporting asset"
+ }
+]

@@ -1,0 +1,10 @@
+document.documentElement.classList.add('js');
+const W={w:{7:"assets/wireframes/citysurviver-home-wireframe.png",8:"assets/wireframes/citysurviver-search-wireframe.png",9:"assets/wireframes/citysurviver-search-results-wireframe.png",10:"assets/wireframes/citysurviver-filters-wireframe.png",12:"assets/wireframes/citysurviver-property-details-wireframe.png"},f:{7:"assets/screens/citysurviver-home.png",8:"assets/screens/citysurviver-search.png",9:"assets/screens/citysurviver-search-results.png",10:"assets/screens/citysurviver-filters.png",12:"assets/screens/citysurviver-property-details.png"}},N={7:"Home",8:"Search",9:"Results",10:"Filters",12:"Details"};
+document.getElementById('cmps').innerHTML=[7,8,9,10,12].map(k=>`<div class="cmp" style="--x:50%"><img src="${W.f[k]}" alt="Final ${N[k]} design"><img class="w" src="${W.w[k]}" alt="${N[k]} wireframe"><small style="left:8px">Wire</small><small style="right:8px">Final · ${N[k]}</small><input type="range" min="0" max="100" value="50" aria-label="Compare ${N[k]} wireframe and final"></div>`).join('');
+document.querySelectorAll('.cmp input').forEach(i=>i.oninput=()=>i.parentNode.style.setProperty('--x',(100-i.value)+'%'));
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+const pg=document.getElementById('pg'),tp=document.getElementById('top'),L=[...document.querySelectorAll('nav a')],S=L.map(a=>document.querySelector(a.hash));
+addEventListener('scroll',()=>{const h=document.documentElement;pg.style.width=scrollY/(h.scrollHeight-innerHeight)*100+'%';tp.classList.toggle('s',scrollY>700);let c=-1;S.forEach((s,i)=>{if(s.getBoundingClientRect().top<150)c=i});L.forEach((a,i)=>a.classList.toggle('on',i==c))},{passive:true});
+tp.onclick=()=>scrollTo({top:0});
+const nl=document.getElementById('nl');document.getElementById('mb').onclick=()=>nl.classList.toggle('o');nl.onclick=()=>nl.classList.remove('o');
